@@ -1,0 +1,48 @@
+.heading {
+    margin-bottom: 40px;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    max-width: 512px;
+}
+
+.line span {
+    color: #9796A1;
+}
+
+.text span {
+    color: #BEBEBE;
+}
+
+.hr {
+    max-width: 525px;
+    margin: 0;
+    border: 1px solid #F1F2F3
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    color: var(--text-color);
+}
+
+.price {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25.87px;
+    text-align: right;
+    color: var(--text-color);
+}
+
+.checkout {
+    max-width: 512px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
